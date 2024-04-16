@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sphinx = "*"
+sphinxcontrib-mermaid = "*"
+myst-parser = "*"
+lektor = "*"
+pytest = "*"
+black = "*"
+sqlalchemy = "*"
+sphinxcontrib-bibtex = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
