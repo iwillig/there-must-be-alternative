@@ -1,0 +1,11 @@
+{:deps true
+
+ :compiler-options {:externs ["datascript/externs.js"]}
+
+ :dev-http {8000 "public"}
+
+ :builds
+ {:app {:target :browser
+        :asset-path "/js/main"
+        :output-dir "public/js/main"
+        :modules {:main {:init-fn alternative.main/init}}}}}

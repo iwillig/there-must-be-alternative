@@ -3,8 +3,6 @@
 
 .PHONY:
 clean:
-	-rm -f dist/$(OUTPUT_FILENAME).html
-	-rm -f dist/$(OUTPUT_FILENAME).pdf
 	-rm junit.xml
 	-rm -r target
 	-rm -r public/js
